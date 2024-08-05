@@ -48,6 +48,6 @@ def save2df(dt="20180101", url_param={}):
     if "repNationCd" in url_param:
         df["repNationCd"]=url_param["repNationCd"]
     else:
-        df["repNationCd"]="global"
+        df["repNationCd"]="G"
 
     return df
