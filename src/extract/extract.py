@@ -41,9 +41,13 @@ def list2df(dt="20180101", url_param={}):
 
     return df
 
-
 def save2df(dt="20180101", url_param={}):
     df = list2df(dt,url_param=url_param)
     df['load_dt']=dt
+
+    if "repNationCd" in url_param:
+        df["repNationCd"]=url_param["repNationCd"]
+    else:
+        df["repNationCd"]="global"
 
     return df
