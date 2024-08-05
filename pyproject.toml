@@ -1,12 +1,17 @@
 [project]
 name = "extract"
-version = "0.1.0"
-description = "Default template for PDM package"
+version = "2.0.1"
+description = ""
 authors = [
     {name = "j25ng", email = "jsan2861@gmail.com"},
+    {name = "mingk42", email = "xoals123456t@gmail.com"},
 ]
-dependencies = []
-requires-python = "==3.11.*"
+dependencies = [
+    "requests>=2.32.3",
+    "pandas>=2.2.2",
+    "pyarrow>=17.0.0",
+]
+requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
 
