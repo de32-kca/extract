@@ -5,6 +5,7 @@ description = ""
 authors = [
     {name = "j25ng", email = "jsan2861@gmail.com"},
     {name = "mingk42", email = "xoals123456t@gmail.com"},
+    {name = "HaramSs", email = "haram8274@gmail.com"},
 ]
 dependencies = [
     "requests>=2.32.3",
