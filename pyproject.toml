@@ -1,6 +1,6 @@
 [project]
 name = "extract"
-version = "d2.0.1"
+version = "2.0.1"
 description = ""
 authors = [
     {name = "j25ng", email = "jsan2861@gmail.com"},
